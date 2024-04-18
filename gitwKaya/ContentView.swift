@@ -13,19 +13,19 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack{
-                Image(systemName: "cat")
+                Image(systemName: "dog")
                     .imageScale(.large)
                     .foregroundStyle(.red)
-                Image(systemName: "cat")
+                Image(systemName: "dog")
                     .imageScale(.large)
                     .foregroundStyle(.yellow)
-                Image(systemName: "cat")
+                Image(systemName: "dog")
                     .imageScale(.large)
                     .foregroundStyle(.green)
-                Image(systemName: "cat")
+                Image(systemName: "dog")
                     .imageScale(.large)
                     .foregroundStyle(.blue)
-                Image(systemName: "cat")
+                Image(systemName: "dog")
                     .imageScale(.large)
                     .foregroundStyle(.purple)
             }
