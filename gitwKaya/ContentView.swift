@@ -13,6 +13,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HStack{
+                Text("mung")
                 Image(systemName: "dog")
                     .imageScale(.large)
                     .foregroundStyle(.red)
